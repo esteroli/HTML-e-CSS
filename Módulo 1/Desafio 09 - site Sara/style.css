@@ -1,0 +1,20 @@
+body{
+  background-image: radial-gradient( #c32f27, #780116);
+}
+div{
+  text-align: center;
+  align-items: center;
+}
+h1{
+  font-family: 'Oswald', sans-serif;
+  color: antiquewhite;
+}
+p{
+  font-family: 'Oswald', sans-serif;
+  color: antiquewhite;
+}
+media{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}

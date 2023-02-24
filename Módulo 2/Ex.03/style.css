@@ -1,0 +1,40 @@
+@charset "UTF-8";
+
+@font-face {
+  font-family: Easter Bunny;
+  src: url('fonts/EasterBunnyPersonalUse.ttf') format(truetype);
+}
+
+@font-face {
+  font-family: Cinderela;
+  src: url('fonts/CinderelaPersonalUseRegular-RDvM.ttf') format(truetype);
+}
+
+@font-face {
+  font-family: Hearts;
+  src: url('fonts/Two\ of\ Hearts.ttf') format(truetype);
+}
+
+body {
+  background-color: rgb(246, 211, 228);
+}
+
+#titulo {
+  background-color: rgb(238, 137, 208);
+  text-align: center;
+  font-family: Easter Bunny, Arial, Helvetica, sans-serif;
+}
+
+#segundo {
+  text-align: center;
+  font-family: Hearts, 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.sub-titulo {
+  font-family: Cinderela, 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-align: center;
+}
+
+p {
+  text-align: justify;
+}

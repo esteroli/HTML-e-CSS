@@ -1,0 +1,26 @@
+@charset "UTF-8";
+
+body {
+  background-color: #fefae0;
+}
+
+#negrito {
+  font-weight: bolder;
+  font-size: 50px;
+  align-items: center;
+  font-family: 'Bebas Neue', cursive;
+}
+
+div > p {
+  display: none;
+}
+
+div:hover > p {
+  display: block;
+  background-color: #dda15e;
+  color: #bc6c25;
+}
+
+p {
+  font-size: 20px;
+}

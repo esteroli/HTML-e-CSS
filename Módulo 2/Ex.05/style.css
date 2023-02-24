@@ -1,0 +1,41 @@
+@charset "UTF-8";
+
+body {
+  background-color: #ffddd2;
+  color: #006d77;
+}
+
+h1 {
+  font-size: 50px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  align-items: center;
+}
+
+li {
+  font-size: 25px;
+}
+
+a{
+  text-decoration: none;
+}
+
+a:visited{
+  color: #e29578;
+}
+
+a:hover {
+  color: #83c5be;
+  text-decoration: underline;
+}
+
+a:active {
+  color: #edf6f9;
+}
+
+.atual::before{
+  content: '☛';
+}
+
+.atual::after{
+  content: '☚';
+}

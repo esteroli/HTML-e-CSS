@@ -1,0 +1,23 @@
+@charset "UTF-8";
+
+body {
+  background-color: #f9dbbd;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1 {
+  background-color: #ffa5ab;
+  height: 300px;
+  width: 400px;
+  padding: 40px 50px 30px 70px;
+  border: 50px solid #da627d;
+  margin: 30px 60px 30px 80px;
+  outline-width: 10px;
+  outline-style: solid;
+  outline-color: #a53860;
+}
+
+a {
+  border: 5px dashed #450920;
+  padding: 5px 10px 5px 10px;
+}
