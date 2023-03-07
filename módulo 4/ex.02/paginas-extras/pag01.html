@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: lightgray;
+        }
+
+        table {
+            border-collapse: collapse;
+            position: relative;
+            margin: auto;
+        }
+
+        caption {
+            font-size: 1.3em;
+            font-weight: bolder;
+            padding: 20px;
+        }
+        
+        thead > tr > th {
+            position: sticky;
+            top: 0px;
+            background-color: black;
+            color: white;
+        }
+
+        th, td {
+            border: 1px solid black;
+            padding: 10px;
+        }
+
+        tr:nth-child(even) {
+            background-color: rgb(228, 228, 228);
+        }
+
+        div#container {
+            overflow-y: auto;
+        }
+    </style>
+    <title>Tabelas Responsivas</title>
+</head>
+<body>
+    <table>
+        <caption>População das Unidades Federativas</caption>
+        <thead>
+            <tr>
+                <th scope="col">Estado</th>
+                <th scope="col">População</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>São Paulo</td>
+                <td class="num">44 169 350</td>
+            </tr>
+            <tr>
+                <td>Minas Gerais</td>
+                <td class="num">20 777 672</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td class="num">16 497 395</td>
+            </tr>
+            <tr>
+                <td>Bahia</td>
+                <td class="num">15 150 143</td>
+            </tr>
+            <tr>
+                <td>Rio Grande do Sul</td>
+                <td class="num">11 228 091</td>
+            </tr>
+            <tr>
+                <td>Paraná</td>
+                <td class="num">11 112 062</td>
+            </tr>
+            <tr>
+                <td>Pernambuco</td>
+                <td class="num">9 297 861</td>
+            </tr>
+            <tr>
+                <td>Ceará</td>
+                <td class="num">8 867 448</td>
+            </tr>
+            <tr>
+                <td>Pará</td>
+                <td class="num">8 101 180</td>
+            </tr>
+            <tr>
+                <td>Maranhão</td>
+                <td class="num">6 861 924</td>
+            </tr>
+            <tr>
+                <td>Santa Catarina</td>
+                <td class="num">6 734 568</td>
+            </tr>
+            <tr>
+                <td>Goiás</td>
+                <td class="num">6 551 322</td>
+            </tr>
+            <tr>
+                <td>Paraíba</td>
+                <td class="num">3 950 359</td>
+            </tr>
+            <tr>
+                <td>Espírito Santo</td>
+                <td class="num">3 894 899</td>
+            </tr>
+            <tr>
+                <td>Amazonas</td>
+                <td class="num">3 893 763</td>
+            </tr>
+            <tr>
+                <td>Rio Grande do Norte</td>
+                <td class="num">3 419 550</td>
+            </tr>
+            <tr>
+                <td>Alagoas</td>
+                <td class="num">3 327 551</td>
+            </tr>
+            <tr>
+                <td>Mato Grosso</td>
+                <td class="num">3 236 578</td>
+            </tr>
+            <tr>
+                <td>Piauí</td>
+                <td class="num">3 198 185</td>
+            </tr>
+            <tr>
+                <td>Distrito Federal</td>
+                <td class="num">2 867 869</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th scope="row">Total de Habitantes</th>
+                <td class="num"><strong>193 137 770</strong></td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>
