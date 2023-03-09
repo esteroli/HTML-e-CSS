@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+    <form action="cadastro.php">
+        <fieldset>
+            <legend>Dados Pessoais</legend>
+            <p>
+                <label for="nome">Nome:</label>
+                <input type="text" name="nome" id="nome" maxlength="30" autocomplete="name" required>
+            </p>
+            <p>
+                <label for="nasc">Data de Nascimento:</label>
+                <input type="date" name="nasc" id="nasc">
+            </p>
+            <p>
+                Sexo:
+                <label for="sexfem">Feminino</label>
+                <input type="radio" name="sexo" id="sexfem" value="F">
+                <label for="sexmasc">Masculino</label>
+                <input type="radio" name="sexo" id="sexmasc" value="M">
+            </p>
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend>Esportes Favoritos</legend>
+            <input type="checkbox" name="fut" id="fut"><label for="fut">Futebol</label><br>
+            <input type="checkbox" name="basq" id="basq"><label for="basq">Basquete</label><br>
+            <input type="checkbox" name="vol" id="vol"><label for="vol">Vôlei</label><br>
+            <input type="checkbox" name="nat" id="nat"><label for="nat">Natação</label><br>
+            <input type="checkbox" name="hand" id="hand"><label for="hand">Handebol</label><br>
+            <input type="checkbox" name="jiu" id="jiu"><label for="jiu">Jiu Jitsu</label>
+        </fieldset>
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+    </form>
+</body>
+</html>
