@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+    <h1>Exemplo de Formulário</h1>
+    <div>
+        <form action="cadastro.php" method="post">
+            <div>
+                <label for="cor">Sua cor favorita</label>
+                <select name="cor" id="cor">
+                    <option value="" selected>---Escolha---</option>
+                    <optgroup label="Cores quentes">
+                        <option value="ver">Vermelho</option>
+                        <option value="lar">Laranja</option>
+                        <option value="ama">Amarelo</option>
+                    </optgroup>
+                    <optgroup label="Cores frias">
+                        <option value="ver">Verde</option>
+                        <option value="azu">Azul</option>
+                        <option value="rox">Roxo</option>
+                    </optgroup>
+                </select>
+            </div>
+            <br>
+            <div>
+                <label for="prof">Profissão:</label>
+                <input type="text" name="prof" id="prof" list="profissao">
+                <datalist id="profissao">
+                    <option value="Administrador"></option>
+                    <option value="Contador"></option>
+                    <option value="Desenvolvedor"></option>
+                    <option value="Veterinário"></option>
+                    <option value="Cineasta"></option>
+                </datalist>
+            </div>
+            <br>
+            <div>
+                <label for="msg">Mensagem:</label>
+                <br>
+                <textarea name="msg" id="msg" cols="30" rows="10"></textarea>
+            </div>
+            <br>
+            <div>
+                <input type="submit" value="Enviar">
+                <input type="reset" value="Limpar">
+            </div>
+        </form>
+    </div>
+</body>
+</html>
