@@ -1,6 +1,7 @@
 @charset "UTF-8";
 
  /* declarações gerais */
+ @media all{
  * {
     margin: 0px;
     padding: 0px;
@@ -20,7 +21,7 @@ h1 {
     text-shadow: 2px 2px 0px #1526a7;
     padding: 10px;
 }
-
+}
 /* declarações retrato */
 @media screen and (orientation: portrait) {
     body {
