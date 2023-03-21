@@ -28,7 +28,6 @@ i#burguer {
     text-align: center;
     padding: 10px;
     cursor: pointer;
-    size: 50px;
 }
 
 i#burguer:hover {
